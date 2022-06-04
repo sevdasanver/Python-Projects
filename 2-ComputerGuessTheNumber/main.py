@@ -3,7 +3,7 @@ import random
 def computer_guess():
     start, end = 1, 100
     back = ''
-
+    
     while back != "c":
         if start <= end:
             guess = random.randint(start, end)
